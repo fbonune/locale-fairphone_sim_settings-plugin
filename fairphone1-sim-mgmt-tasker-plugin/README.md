@@ -8,7 +8,7 @@ Fairphone SIM management for tasker allows you to control the dual SIMs.</p>
 
 <p>Developers:
 <ul>
-<li>Sourcecode available at <a href="https://github.com/fbonune/Locale-Fairphone-SIM-Management">Locale Fairphone SIM management</a> plugin source code.</li>
+<li>Sourcecode available at <a href="https://github.com/fbonune/locale-fairphone_sim_settings-plugin">locale-fairphone_sim_settings-plugin</a> plugin source code.</li>
 <li>Fairphone SIM management code is based on the <a href="http://www.twofortyfouram.com/developer.html">Locale Toast Setting</a> plugin source code.</li>
 <li>The class SimManagement is based on <a href="https://github.com/Dzakus/DualSIM-Manager">Dual SIM Manager</a> by DZakus.</li>
 </ul>
