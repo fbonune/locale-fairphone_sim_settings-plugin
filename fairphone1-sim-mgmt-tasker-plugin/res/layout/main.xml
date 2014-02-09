@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+** Copyright 2013 two forty four a.m. LLC <http://www.twofortyfouram.com>
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at <http://www.apache.org/licenses/LICENSE-2.0>
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations unser the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:id="@+id/Grid02"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="30dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/SIM1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dip"
+                android:gravity="center_vertical"
+                android:text="@string/sim1"
+                android:textColor="@android:color/holo_blue_bright" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/radiobutton_on" />
+
+                <RadioButton
+                    android:id="@+id/radio12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radiobutton_off" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/SIM2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView2"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dip"
+                android:gravity="center_vertical"
+                android:text="@string/sim2"
+                android:textColor="@android:color/holo_blue_bright" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/radiobutton_on" />
+
+                <RadioButton
+                    android:id="@+id/radio22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radiobutton_off" />
+            </RadioGroup>
+        </LinearLayout>
+    </GridLayout>
+
+</LinearLayout>
